@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&amp;family=Open+Sans:wght@700&amp;display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="central_block">
+            <div class="menu">
+              <div class="menu1"><a class="menu_item" href="index.html"><img class="logo" src="img/photo_2023-01-17_18-29-00.jpg"/></a></div>
+              <div class="menu2"><a class="menu_item" href="index2.html">Labels</a><a class="menu_item" href="">Charts</a><a class="menu_item" href="">Albums</a><a class="menu_item" href="">Awards</a><a class="menu_item active" href="index1.html">Discography</a></div>
+            </div>
+      <hr class="line"/>
+      <div class="main_block_pats"> 
+        <p class="title">DISCOGRAPHY</p>
+        <div class="graph">
+          <details>
+            <summary>График</summary>
+            <form>
+              <p>Значение по оси ОХ <br>
+                <input type="checkbox" name="category" value="0"/>&nbsp Лэйбл <br>
+                <input type="checkbox" name="category" value="1"/>&nbsp Год релиза <br>
+                <input type="checkbox" name="category" value="2"/>&nbsp Продажи <br>
+              </p>
+            </form>
+            <form>
+              <p>Результат <br>
+                <input type="checkbox" name="category" value="0"/>&nbsp Среднее количество продаж <br>
+                <input type="checkbox" name="category" value="1"/>&nbsp Количество лэйблов<br>
+              </p>
+            </form>
+          </details>
+        </div>
+        <div class="graph">
+          <details>
+            <summary>Фильтр</summary>
+            <form>
+              <label>Исполнитель: 
+                <input type="text" name="name"/>
+              </label>
+              <p>Лэйбл:
+                <select name="brade">
+                  <option value="0">H1ghr Music</option>
+                  <option value="1">AOMG</option>
+                  <option value="2">AREA</option>
+                  <option value="3">Genie music</option>
+                  <option value="4">Ambition musik</option>
+                </select>
+              </p>
+              <label>Год релиза:
+                <input type="number" min="2012" max="2022" value="2012"/>
+              </label>
+              <p>
+                <label>Продажи от :
+                  <input type="text" value="0"/>
+                </label>
+              </p>
+            </form>
+          </details>
+        </div>
+        <div class="graph">
+          <details>
+            <summary>Сортировка</summary>
+            <form>
+              <p>Сортировать по:
+                <select name="brade">
+                  <option value="0">Исполнитель</option>
+                  <option value="1">Лэйбл</option>
+                  <option value="2">Название песни</option>
+                  <option value="3">Год релиза</option>
+                  <option value="4">Позиция в чартах</option>
+                  <option value="5">Продажи</option>
+                </select>
+              </p>
+            </form>
+          </details>
+        </div>
+        <table>
+          <tr>
+            <td>Исполнитель</td>
+            <td>Лэйбл</td>
+            <td>Название песни</td>
+            <td>Год релиза</td>
+            <td>Позиция в чартах</td>
+            <td>Продажи</td>
+          </tr>
+          <tr>
+            <td>pH-1</td>
+            <td>H1ghr Music</td>
+            <td>HALO</td>
+            <td>2019</td>
+            <td>21</td>
+            <td>3,782</td>
+          </tr>
+          <tr>
+            <td>pH-1</td>
+            <td>H1ghr Music</td>
+            <td>X</td>
+            <td>2020</td>
+            <td>27</td>
+            <td>4,579</td>
+          </tr>
+          <tr>
+            <td>pH-1</td>
+            <td>H1ghr Music</td>
+            <td>The Island Kid</td>
+            <td>2017</td>
+            <td>45</td>
+            <td>3,9982</td>
+          </tr>
+          <tr>
+            <td>pH-1</td>
+            <td>H1ghr Music</td>
+            <td>"Orange" (주황색)</td>
+            <td>2019</td>
+            <td>56</td>
+            <td>67,782</td>
+          </tr>
+          <tr>
+            <td>pH-1</td>
+            <td>H1ghr Music</td>
+            <td>"Malibu" (feat. The Quiett)</td>
+            <td>2019</td>
+            <td>11</td>
+            <td>5,782</td>
+          </tr>
+          <tr>
+            <td>GroovyRoom</td>
+            <td>H1ghr Music</td>
+            <td>Somewhere</td>
+            <td>2019</td>
+            <td>52</td>
+            <td>78,900</td>
+          </tr>
+          <tr>
+            <td>GroovyRoom</td>
+            <td>H1ghr Music</td>
+            <td>By Your Color</td>
+            <td>2020</td>
+            <td>15</td>
+            <td>4,579</td>
+          </tr>
+          <tr>
+            <td>GroovyRoom</td>
+            <td>H1ghr Music</td>
+            <td>"Карабин" (잡아줄게)</td>
+            <td>2017</td>
+            <td>82</td>
+            <td>780</td>
+          </tr>
+          <tr>
+            <td>GroovyRoom</td>
+            <td>H1ghr Music</td>
+            <td>Tell me</td>
+            <td>2019</td>
+            <td>9</td>
+            <td>	5,900</td>
+          </tr>
+          <tr>
+            <td>GroovyRoom</td>
+            <td>H1ghr Music</td>
+            <td>Achoo Remix</td>
+            <td>2019</td>
+            <td>13</td>
+            <td>5,782</td>
+          </tr>
+          <tr>
+            <td>Jay Park</td>
+            <td>AOMG</td>
+            <td>Mommae</td>
+            <td>2015</td>
+            <td>1</td>
+            <td>134,900</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
